@@ -1,1 +1,1 @@
-# influencer-gear-recap
+# influencer-gear
