@@ -1,0 +1,77 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap");
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* common styles or utilities */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto 70px auto;
+}
+.primary-button {
+  background: #e02c6d;
+  border-radius: 41px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: #e02c6d;
+  padding: 10px 24px;;
+  
+}
+.primary-button p {
+    margin: 0px; 
+    display: flex;
+}
+.hero-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+/* top banner styles */
+.half-width {
+    width: 50%;
+}
+.top-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-banner .banner-thumbnail img {
+  width: 82%;
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  transition: transform 1s;  
+}
+.top-banner .banner-thumbnail:hover img{
+    
+}
+.banner-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+}
+.banner-detail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
