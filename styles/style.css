@@ -58,9 +58,6 @@ body {
   background-repeat: no-repeat;
   transition: transform 1s;  
 }
-.top-banner .banner-thumbnail:hover img{
-    
-}
 .banner-title {
   font-family: "Poppins";
   font-style: normal;
@@ -75,3 +72,13 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
+/* top banner styles end */
+/* brands styles */
+.brand {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.brand img {
+    margin: 30px;
+}
+/* brands styles end */
