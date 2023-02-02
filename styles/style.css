@@ -33,10 +33,18 @@ body {
   margin: 0px;
   display: flex;
 }
-.hero-icon {
-  width: 24px;
-  height: 24px;
-  margin-left: 5px;
+.btn-section{
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-section a{
+  text-decoration: none;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(224, 44, 109, 0.87);
+  margin-top: 50px;
 }
 /* top banner styles */
 .half-width {
@@ -92,13 +100,13 @@ body {
   text-align: center;
 }
 .card-collection {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    grid-row-gap: 50px;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-row-gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 .card {
   width: 350px;
@@ -106,7 +114,7 @@ body {
   box-shadow: 5px 2px 10px gray;
 }
 .card-content {
-    margin: 25px;
+  margin: 25px;
 }
 .card-img {
   width: 300px;
@@ -137,8 +145,8 @@ body {
   line-height: 22px;
   color: #5e6366;
 }
-.ratings p{
-    margin: 6px 0;
+.ratings p {
+  margin: 6px 0;
 }
 .card-detail {
   font-family: "Inter";
@@ -150,3 +158,55 @@ body {
   margin: 0;
 }
 /* popular collection styles end */
+/* feature styles */
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+}
+.feature .feature-thumbnail img {
+  width: 100%;
+}
+.feature-detail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+}
+.feature-info {
+  margin-left: 50px;
+}
+/* feature styles end*/
+/* footer start */
+footer{
+  background-color: rgb(10, 8, 38);
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.footer{
+  width: 262px;
+  height: 139;
+  text-align: center;
+}
+footer h2{
+  line-height: 36px;
+}
+footer p{
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #D9DBE1;
+}
+/* footer end */
