@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #ffffff;
 }
 .container {
   max-width: 1240px;
@@ -24,23 +25,22 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   border: #e02c6d;
-  padding: 10px 24px;;
-  
+  padding: 10px 24px;
 }
 .primary-button p {
-    margin: 0px; 
-    display: flex;
+  margin: 0px;
+  display: flex;
 }
 .hero-icon {
-    width: 24px;
-    height: 24px;
-    margin-left: 5px;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
 }
 /* top banner styles */
 .half-width {
-    width: 50%;
+  width: 50%;
 }
 .top-banner {
   display: flex;
@@ -48,15 +48,15 @@ body {
   align-items: center;
 }
 .banner-thumbnail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .top-banner .banner-thumbnail img {
   width: 82%;
   background-image: url(../images/Circle\ design.svg);
   background-repeat: no-repeat;
-  transition: transform 1s;  
+  transition: transform 1s;
 }
 .banner-title {
   font-family: "Poppins";
@@ -75,10 +75,78 @@ body {
 /* top banner styles end */
 /* brands styles */
 .brand {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
 }
 .brand img {
-    margin: 30px;
+  margin: 30px;
 }
 /* brands styles end */
+/* popular collection styles */
+.collection-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+  text-align: center;
+}
+.card-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.card {
+  width: 350px;
+  height: 476px;
+  box-shadow: 5px 2px 10px gray;
+}
+.card-content {
+    margin: 25px;
+}
+.card-img {
+  width: 300px;
+  height: 256px;
+}
+.card-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  margin: 6px 0;
+}
+.ratings span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5e6366;
+}
+.ratings p{
+    margin: 6px 0;
+}
+.card-detail {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  color: #787885;
+  margin: 0;
+}
+/* popular collection styles end */
