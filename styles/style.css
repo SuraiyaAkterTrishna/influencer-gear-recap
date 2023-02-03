@@ -1,11 +1,6 @@
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap");
 
-/* font-family: 'Inter', sans-serif;
-font-family: 'Manrope', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 /* common styles or utilities */
 body {
   font-family: "Poppins", sans-serif;
@@ -33,11 +28,11 @@ body {
   margin: 0px;
   display: flex;
 }
-.btn-section{
+.btn-section {
   display: flex;
   justify-content: flex-end;
 }
-.btn-section a{
+.btn-section a {
   text-decoration: none;
   font-family: Poppins;
   font-weight: bold;
@@ -187,7 +182,7 @@ body {
 }
 /* feature styles end*/
 /* footer start */
-footer{
+footer {
   background-color: rgb(10, 8, 38);
   height: 240px;
   display: flex;
@@ -195,18 +190,73 @@ footer{
   align-items: center;
   color: white;
 }
-.footer{
+.footer {
   width: 262px;
   height: 139;
   text-align: center;
 }
-footer h2{
+footer h2 {
   line-height: 36px;
 }
-footer p{
-  font-family: 'Manrope', sans-serif;
+footer p {
+  font-family: "Manrope", sans-serif;
   font-size: 14px;
   line-height: 24px;
-  color: #D9DBE1;
+  color: #d9dbe1;
 }
 /* footer end */
+/* Media Query */
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .top-banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .top-banner .banner-thumbnail img {
+    width: 100%;
+    background: none;
+  }
+  .brand {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .brand img {
+    margin: 10px auto;
+  }
+  .card-collection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* Tablet Devices */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+  .top-banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .brand, .card-collection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+  }
+}
